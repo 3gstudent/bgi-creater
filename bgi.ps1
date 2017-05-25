@@ -14,7 +14,7 @@ $fileContentBytes = [System.Convert]::FromBase64String($fileContent)
 [System.IO.File]::WriteAllBytes("test1.bgi",$fileContentBytes)
 
 $fs=new-object io.filestream "test1.bgi",open
-$fs.seek(0,2)
+$fs.seek(0,2)| Out-Null
 $fs.writebyte($Length)
 $fs.writebyte(0x00)
 $fs.writebyte(0x00)
@@ -26,7 +26,7 @@ $fs.close()
 $VbsPath | Out-File -Encoding ascii -Append test1.bgi
 
 $fs=new-object io.filestream "test1.bgi",open
-$fs.seek(-2,2)
+$fs.seek(-2,2)| Out-Null
 $fs.writebyte(0x00)
 $fs.writebyte(0x00)
 $fs.writebyte(0x00)
