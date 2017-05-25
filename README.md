@@ -4,7 +4,7 @@
 
 Use BGInfo to bypass Application Whitelisting
 
-Learn from Oddvar Moe [MVP]@Oddvarmoe
+Learn from Oddvar Moe [MVP]@Oddvarmoe,many thanks to him
 
 Link: https://msitpros.com/?p=3831
 
