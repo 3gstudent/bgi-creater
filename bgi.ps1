@@ -5,7 +5,7 @@
 	Link: https://msitpros.com/?p=3831
 
 #>
-# Change this,set the path of vbs(Disk directories require uppercase letters)
+# Change this,set the path of vbs (Disk directory requires capital letter)
 $VbsPath="C:\test\cmd.vbs"
 $Length=$VbsPath.Length+2
 
