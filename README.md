@@ -10,7 +10,7 @@ Link: https://msitpros.com/?p=3831
 
 Details:
 
-https://3gstudent.github.io/3gstudent.github.io/Study-Notes-of-using-BGInfo-to-bypass-Application-Whitelisting/
+https://3gstudent.github.io/Study-Notes-of-using-BGInfo-to-bypass-Application-Whitelisting
 
 **Usage:**
 
